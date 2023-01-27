@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Numerology Calculator</string>
     <string name="required">Required</string>
+    <string name="emailEditText">Enter your email</string>
+    <string name="passwordEditText">Enter your password</string>
+    <string name="loginText">Login</string>
+    <string name="skipText">Skip login (as Guest)</string>
+    <string name="forgotPasswordText">Forgot your password?</string>
+    <string name="registerText">Join us!</string>
 </resources>
