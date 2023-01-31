@@ -46,5 +46,33 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+        TextView forgotLink = findViewById(R.id.forgotLink);
+        forgotLink.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent startIntent = new Intent(getApplicationContext(), ForgotPasswordActivity.class);
+                startActivity(startIntent);
+            }
+        });
+
+        TextView skipLink = findViewById(R.id.skipLink);
+        skipLink.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent startIntent = new Intent(getApplicationContext(), CalculatorActivity.class);
+                startActivity(startIntent);
+            }
+        });
+
+        TextView registerLink = findViewById(R.id.registerLink);
+        registerLink.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent startIntent = new Intent(getApplicationContext(), RegisterActivity.class);
+                startActivity(startIntent);
+            }
+        });
     }
 }

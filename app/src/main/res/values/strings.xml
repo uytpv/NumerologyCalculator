@@ -1,10 +1,34 @@
 <resources>
     <string name="app_name">Numerology Calculator</string>
+    <string name="register_title">Join us!</string>
+    <string name="forgot_password_title">Forgot Password</string>
     <string name="required">Required</string>
     <string name="emailEditText">Enter your email</string>
     <string name="passwordEditText">Enter your password</string>
+    <string name="passwordRepeatEditText">Repeat your password</string>
     <string name="loginText">Login</string>
+    <string name="sendText">Send</string>
     <string name="skipText">Skip login (as Guest)</string>
     <string name="forgotPasswordText">Forgot your password?</string>
     <string name="registerText">Join us!</string>
+
+    <!--Customer List Item-->
+    <string-array name="ids">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="names">
+        <item>Phuc Vinh Uy Tra</item>
+        <item>Thi Ngoc Hue Le</item>
+        <item>Vinh Nguyen Minh Tra</item>
+        <item>Tuyet Minh Tra</item>
+    </string-array>
+    <string-array name="dobs">
+        <item>27–08-1980</item>
+        <item>28-01-1980</item>
+        <item>04-01-2008</item>
+        <item>18-05-2012</item>
+    </string-array>
 </resources>
